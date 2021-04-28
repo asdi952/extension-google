@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "google/search keyboard navegation",
+  "version": "0.1.0",
+  "description": "navegation on google search with keyboard",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "run_at": "document_start",
+    "matches": ["https://www.google.com/search*"]
+  }]
+ 
+}
